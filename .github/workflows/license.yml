@@ -10,7 +10,7 @@ on:
 
 jobs:
   license:
-    uses: netomi/dash-licenses/.github/workflows/mavenLicenseCheck.yml@main
+    uses: netomi/dash-licenses/.github/workflows/mavenLicenseCheck.yml@master
     permissions:
       contents: write
       issues: write
