@@ -16,7 +16,7 @@ jobs:
       issues: write
       pull-requests: write
     with:
-      projectId: 'eclipse-csi'
+      projectId: 'technology.csi'
     secrets:
       gitlabAPIToken: ${{ secrets.GITLAB_API_TOKEN }}
 
