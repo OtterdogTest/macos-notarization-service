@@ -16,7 +16,7 @@ jobs:
       issues: write
       pull-requests: write
     with:
-      projectId: 'technology.csi'
+      projectId: 'technology.cbi'
     secrets:
       gitlabAPIToken: ${{ secrets.GITLAB_API_TOKEN }}
 
