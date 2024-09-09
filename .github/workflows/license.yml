@@ -15,6 +15,7 @@ jobs:
       contents: write
       issues: write
       pull-requests: write
+      actions: write
     with:
       projectId: 'technology.cbi'
     secrets:
