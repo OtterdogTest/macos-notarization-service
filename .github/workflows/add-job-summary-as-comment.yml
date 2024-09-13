@@ -2,6 +2,7 @@ name: Add job summary as comment to PR
 
 on:
   workflow_run:
+    workflows: [Check Licenses]
     types:
       - completed
 
