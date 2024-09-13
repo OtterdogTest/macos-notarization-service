@@ -18,7 +18,7 @@ jobs:
     steps:
       - name: Dump GitHub context
         env:
-          GITHUB_CONTEXT: ${{ toJson(github.workflow_run) }}
+          GITHUB_CONTEXT: ${{ toJson(github.event.workflow_run.pull_requests) }}
         run: echo "$GITHUB_CONTEXT"
       # - name: 'Comment on PR'
       #   uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
