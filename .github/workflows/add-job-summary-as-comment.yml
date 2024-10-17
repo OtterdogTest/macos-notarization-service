@@ -8,6 +8,6 @@ on:
 
 jobs:
   license:
-    uses: netomi/dash-licenses/.github/workflows/addLicenseCheckCommentForForks.yml@master
+    uses: netomi/dash-licenses/.github/workflows/addLicenseCheckCommentForForks.yml@d3b7c0606dbd6fa1eec12536fca4dc1727627e25 # master
     permissions:
       pull-requests: write
